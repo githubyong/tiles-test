@@ -1,0 +1,134 @@
+/*标题*/
+.console-title {
+    padding: 16px 0px 0 4px;
+    min-height: 36px;
+    border: none;
+}
+
+.console-title-border {
+    border-bottom: 1px solid #DDD;
+}
+
+.pull-left {
+    float: left !important;
+    padding-left: 2px;
+    font-size: 14px;
+    border-left: 2px solid #53C7A0
+}
+
+.pull-right {
+    float: right !important;
+    padding-right: 20px;
+}
+
+/*查询条件*/
+.hd {
+
+}
+
+/* 错误提示 */
+.err {
+    font-size: 14px;
+    font-family: '微软雅黑';
+    color: #e68900;
+}
+
+.query-div {
+    vertical-align: middle;
+    margin-top: 20px;
+    height: 54px;
+}
+
+.query-div td {
+    padding-left: 10px;
+}
+
+.query-right {
+    float: right;
+    vertical-align: middle;
+    margin-top: 20px;
+    padding-right: 20px;
+    height: 54px;
+}
+
+.btn {
+    padding: 4px 9px;
+    font-size: 14px;
+    font-family: '微软雅黑';
+    color: white;
+    background: #53C7A0;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:focus {
+    filter: alpha(opacity=100);
+    border: none;
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+.btn-query {
+    width: 72px;
+    margin-left: 16px;
+    padding-left: 20px;
+    background: url("../images/search.png") no-repeat 8px 6px;
+    background-color: #53C7A0;
+}
+.btn-refresh {
+    width: 72px;
+    margin-left: 16px;
+    padding-left: 20px;
+    background: url("../images/refresh.png") no-repeat 8px 6px;
+    background-color: #53C7A0;
+}
+
+.main-content {
+    margin-left: 12px;
+    margin-right: 2px;
+}
+
+.text_box1 {
+    line-height: 21px;
+    height: 21px;
+    font-family: '微软雅黑';
+    border: 1px solid #D4D4D4;
+    display: inline-block;
+    vertical-align: middle;
+}
+.sysinfo{
+    margin-left: 12px;
+    color: #87878c;
+}
+
+.label-required {
+    color: red;
+    margin-right: 4px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.btn-save{
+    width: 72px;
+    margin-left: 16px;
+    padding-left: 20px;
+    background: url("../images/save.png") no-repeat 8px 6px;
+    background-color: #53C7A0;
+}
+.btn-cancel{
+    width: 72px;
+    margin-left: 16px;
+    padding-left: 20px;
+    background: url("../images/cancel.png") no-repeat 8px 6px;
+    background-color: #BFBFBF;
+}
+
+/*validate 样式*/
+input.error {
+    border: 1px dotted red !important;
+}
+
+label.error {
+    color: #ff8651;
+    margin-left: 10px;
+    width: auto;
+    display: inline;
+}

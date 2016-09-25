@@ -1,0 +1,71 @@
+@charset "UTF-8";
+body {
+    text-align: left;
+    margin: auto;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+
+.layout-split-west {
+    border: none;
+    min-height: 100%;
+}
+
+/* 重写 dialog 边框*/
+.window, .window-shadow {
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+
+/* 重写 btn 边框*/
+.l-btn {
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+
+/* 重写 btn 获取焦点时的外边框*/
+.l-btn-focus {
+    /*outline: #0000FF dotted thin;*/
+    outline: #53C7A0 thin;
+    color: #00438a;
+    background: #e6e6e6
+}
+
+* {
+    font-size: 14px;
+}
+
+.textbox {
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+
+.textbox .textbox-text {
+    font-size: 14px;
+    font-family: "微软雅黑";
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    padding: 3px;
+}
+
+.combo-arrow, .combo-arrow:hover {
+    background-color: #53C7A0;
+}
+
+.combobox-item, .combobox-group, .combobox-stick {
+    font-size: 14px;
+}
+
+.panel-icon {
+    width: 20px;
+    height: 20px;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}

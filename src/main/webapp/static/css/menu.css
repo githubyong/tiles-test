@@ -1,0 +1,87 @@
+.main-sidebar {
+    background-color: #293038;
+    width: 220px;
+    border: none;
+    font-size: 14px;
+}
+
+.main-footer {
+    background: #fff;
+    color: #444;
+    margin-left: 220px;
+}
+
+.accordion .accordion-header {
+    background: #23282E;
+    height: 30px;
+    border: none;
+}
+
+.accordion .accordion-header-selected {
+    /*background: #53C7A0;*/
+}
+
+.accordion .panel-title {
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    font-family: '微软雅黑';
+    margin-left: 10px;
+}
+
+.accordion .accordion-body {
+    background-color: #293038;
+    border: none;
+    font-family: '微软雅黑';
+    font-size: 14px;
+}
+
+.accordion .accordion-body .l-btn {
+    color: white;
+    padding: 1px;
+}
+
+.accordion .accordion-body .l-btn {
+    color: white;
+    padding: 1px;
+}
+
+.accordion .accordion-body .l-btn:hover {
+    background: #53C7A0;
+    border: none;
+    border-radius: 0;
+    padding: 1px;
+}
+
+.accordion .accordion-body .l-btn :active {
+    background: #53C7A0;
+}
+
+.menu-link-btn {
+    width: 99%;
+    height: 26px;
+    border-radius: 0;
+    border: none;
+}
+
+.icon-1 {
+    background: url('icons/icon-1.png') no-repeat center center;
+}
+
+.icon-2 {
+    background: url('icons/icon-2.png') no-repeat center center;
+}
+
+.icon-3 {
+    background: url('icons/icon-3.png') no-repeat center center;
+}
+
+.icon-4 {
+    background: url('icons/icon-4.png') no-repeat center center;
+}
+
+.icon-5 {
+    background: url('icons/icon-5.png') no-repeat center center;
+}
+
